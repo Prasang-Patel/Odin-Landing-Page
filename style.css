@@ -8,20 +8,21 @@ body {
    margin-left: 150px;
    padding: 20px;
    color: white;
-   font-size: 25px;
+   font-size: 35px;
    font-weight: 800;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Varela Round', sans-serif;
 
 }
 
+/* Navigation Bar Styles */
+
 nav {
-   background-color: #333;
+   background-color: #1F2937;
    height: 120px;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
-
 
 
 ul {
@@ -35,9 +36,66 @@ li {
    margin: 0 20px;
 }
 
-a {
+.nav-links {
    font-weight: 650;
-   font-size: 18px;
+   font-size: 20px;
    color: darkgray;
+   font-family: 'Varela Round', sans-serif;
    text-decoration: none;
+   transition: color 0.4s, font-style 0.3s;
+}
+
+.nav-links:hover {
+   color: white;
+   font-style: normal;
+}
+
+/* Main Section Styling */
+
+.Main-Section {
+
+   background-color: #1F2937;
+   padding: 5px;
+}
+
+.info {
+   width: 350px;
+   margin-top: 50px;
+   margin-left: 150px;
+}
+
+#main-title {
+
+   line-height: 1.5;
+   width: 350px;
+   font-size: 45px;
+   font-weight: 900;
+   margin-bottom: 0px;
+   font-family: 'Varela Round', sans-serif;
+   color: white;
+}
+
+#Subsection-Info {
+   margin: 0;
+   color: rgb(211, 211, 211);
+   font-family: 'Varela Round', sans-serif;
+   padding: 5px;
+}
+
+#signup {
+   background-color: #3882f6;
+   border-radius: 10px;
+   border: none;
+   padding: 12px 40px 10px 40px;
+   margin-top: 20px;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+img {
+
+
+   width: 550px;
+
 }
