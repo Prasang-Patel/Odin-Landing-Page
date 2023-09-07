@@ -14,8 +14,6 @@ body {
 ::-webkit-scrollbar-track {
    background: #0f1928;
 
-
-
 }
 
 ::-webkit-scrollbar-thumb {
@@ -30,10 +28,10 @@ body {
 
 
 #logo {
-   margin-left: 150px;
-   padding: 20px;
+   margin-left: 65%;
+   padding: 1% 9% 9% 9%;
    color: white;
-   font-size: 35px;
+   font-size: 2.632vw;
    font-weight: 800;
    font-family: 'Varela Round', sans-serif;
 
@@ -41,29 +39,34 @@ body {
 
 /* Navigation Bar Styles */
 
+/* Default styles for navigation */
+/* Default styles for navigation */
 nav {
    background-color: #1F2937;
-   height: 120px;
+   height: 10%;
+   /* Changed to percentage value */
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 
-
 ul {
    list-style: none;
-   margin-right: 90px;
+   margin-right: 10%;
+   /* Changed to percentage value */
    padding: 0;
    display: flex;
 }
 
 li {
-   margin: 0 20px;
+   margin: 0 2%;
+   /* Changed to percentage value */
 }
 
 .nav-links {
    font-weight: 650;
-   font-size: 20px;
+   font-size: 1.556vw;
+   /* Changed to viewport width (vw) unit */
    color: darkgray;
    font-family: 'Varela Round', sans-serif;
    text-decoration: none;
@@ -75,26 +78,27 @@ li {
    font-style: normal;
 }
 
+
 /* Main Section Styling */
 
 .Main-Section {
 
    background-color: #1F2937;
-   padding: 5px;
-   padding-bottom: 100px;
+   padding: 1%;
+   padding-bottom: 8%;
 }
 
 .info {
-   width: 350px;
-   padding: 50px;
-   padding-left: 150px;
+   width: 30%;
+   padding: 0%;
+   padding-left: 11%;
 }
 
 #main-title {
 
    line-height: 1.5;
-   width: 350px;
-   font-size: 45px;
+   width: 80%;
+   font-size: 3.5vw;
    font-weight: 900;
    margin-bottom: 0px;
    font-family: 'Varela Round', sans-serif;
@@ -110,6 +114,8 @@ li {
 
 #signup {
    background-color: #3882f6;
+   text-decoration: none;
+   text-decoration-style: none;
    border-radius: 10px;
    border: none;
    padding: 12px 40px 10px 40px;
@@ -119,12 +125,14 @@ li {
    font-weight: 600;
 }
 
+@media (max-width: 768px) {}
+
 .Main-Section img {
 
    position: absolute;
-   top: 20%;
+   top: 30%;
    left: 50%;
-   width: 550px;
+   width: 40%;
 
 }
 
@@ -146,8 +154,8 @@ li {
 }
 
 .imgSec {
-   width: 200px;
-   height: 200px;
+   width: 19.7%;
+   min-height: 200px;
    border: solid rgb(53, 127, 238) 5px;
    border-radius: 10px;
 }
